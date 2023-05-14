@@ -1,0 +1,17 @@
+##========================================================================================
+##                                                                                      ##
+##                                        scrypted2ha                                   ##
+##                                                                                      ##
+##========================================================================================
+# example config put your data here
+
+soggiorno:
+  module: scrypted2ha
+  class: scrypted2ha
+  prefix: scrypted
+  camera: soggiorno
+  objects:
+    - person
+    - cat
+    - dog
+  loglevel: 3
